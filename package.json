@@ -1,0 +1,13 @@
+{
+  "name": "letter-check",
+  "version": "0.1.0",
+  "description": "Paste a letter, bill or notice. See what it wants from you, by when, and whether it looks like a scam. Runs in your browser.",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "evaluate": "node scripts/evaluate.js",
+    "serve": "python3 -m http.server 8000"
+  }
+}

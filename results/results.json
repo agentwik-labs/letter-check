@@ -1,0 +1,1343 @@
+{
+  "today": "2026-11-18",
+  "build": {
+    "rows": [
+      {
+        "id": "medicaid-renewal",
+        "title": "Medicaid renewal",
+        "checks": {
+          "kind": {
+            "ok": true,
+            "expected": "health-coverage",
+            "got": "health-coverage"
+          },
+          "deadline": {
+            "ok": true,
+            "expected": "2026-12-10",
+            "got": "2026-12-10"
+          },
+          "amount": {
+            "ok": true,
+            "expected": null,
+            "got": null
+          },
+          "scam": {
+            "ok": true,
+            "expected": false,
+            "got": false
+          },
+          "documents": {
+            "ok": true,
+            "expected": [
+              "pay stubs",
+              "proof of income"
+            ],
+            "got": [
+              "pay stubs",
+              "proof of income"
+            ],
+            "note": ""
+          },
+          "consequences": {
+            "ok": true,
+            "expected": [
+              "lose-coverage"
+            ],
+            "got": [
+              "lose-coverage"
+            ],
+            "note": ""
+          }
+        }
+      },
+      {
+        "id": "snap-interview",
+        "title": "SNAP interview",
+        "checks": {
+          "kind": {
+            "ok": true,
+            "expected": "food-cash-benefits",
+            "got": "food-cash-benefits"
+          },
+          "deadline": {
+            "ok": true,
+            "expected": "2026-12-02",
+            "got": "2026-12-02"
+          },
+          "amount": {
+            "ok": true,
+            "expected": null,
+            "got": null
+          },
+          "scam": {
+            "ok": true,
+            "expected": false,
+            "got": false
+          },
+          "documents": {
+            "ok": true,
+            "expected": [
+              "photo ID",
+              "proof of address",
+              "bank statements"
+            ],
+            "got": [
+              "proof of address",
+              "photo ID",
+              "bank statements"
+            ],
+            "note": ""
+          },
+          "consequences": {
+            "ok": true,
+            "expected": [
+              "lose-benefits"
+            ],
+            "got": [
+              "lose-benefits"
+            ],
+            "note": ""
+          }
+        }
+      },
+      {
+        "id": "irs-proposed-change",
+        "title": "IRS proposed tax change",
+        "checks": {
+          "kind": {
+            "ok": true,
+            "expected": "tax",
+            "got": "tax"
+          },
+          "deadline": {
+            "ok": true,
+            "expected": "2026-12-02",
+            "got": "2026-12-02"
+          },
+          "amount": {
+            "ok": true,
+            "expected": 1284,
+            "got": 1284
+          },
+          "scam": {
+            "ok": true,
+            "expected": false,
+            "got": false
+          },
+          "documents": {
+            "ok": true,
+            "expected": [],
+            "got": [],
+            "note": ""
+          },
+          "consequences": {
+            "ok": true,
+            "expected": [
+              "court"
+            ],
+            "got": [
+              "late-fee",
+              "court",
+              "assume-correct"
+            ],
+            "note": ""
+          }
+        }
+      },
+      {
+        "id": "utility-shutoff",
+        "title": "Electric shutoff notice",
+        "checks": {
+          "kind": {
+            "ok": true,
+            "expected": "utility",
+            "got": "utility"
+          },
+          "deadline": {
+            "ok": true,
+            "expected": "2026-11-28",
+            "got": "2026-11-28"
+          },
+          "amount": {
+            "ok": true,
+            "expected": 312.47,
+            "got": 312.47
+          },
+          "scam": {
+            "ok": true,
+            "expected": false,
+            "got": false
+          },
+          "documents": {
+            "ok": true,
+            "expected": [],
+            "got": [],
+            "note": ""
+          },
+          "consequences": {
+            "ok": true,
+            "expected": [
+              "shutoff",
+              "late-fee"
+            ],
+            "got": [
+              "shutoff",
+              "late-fee"
+            ],
+            "note": ""
+          }
+        }
+      },
+      {
+        "id": "eob-not-a-bill",
+        "title": "Insurance explanation of benefits",
+        "checks": {
+          "kind": {
+            "ok": true,
+            "expected": "eob",
+            "got": "eob"
+          },
+          "deadline": {
+            "ok": true,
+            "expected": null,
+            "got": null
+          },
+          "amount": {
+            "ok": true,
+            "expected": 150,
+            "got": 150
+          },
+          "scam": {
+            "ok": true,
+            "expected": false,
+            "got": false
+          },
+          "documents": {
+            "ok": true,
+            "expected": [],
+            "got": [],
+            "note": ""
+          },
+          "consequences": {
+            "ok": true,
+            "expected": [],
+            "got": [],
+            "note": ""
+          }
+        }
+      },
+      {
+        "id": "hospital-bill",
+        "title": "Hospital bill",
+        "checks": {
+          "kind": {
+            "ok": true,
+            "expected": "medical-bill",
+            "got": "medical-bill"
+          },
+          "deadline": {
+            "ok": true,
+            "expected": "2026-12-05",
+            "got": "2026-12-05"
+          },
+          "amount": {
+            "ok": true,
+            "expected": 610,
+            "got": 610
+          },
+          "scam": {
+            "ok": true,
+            "expected": false,
+            "got": false
+          },
+          "documents": {
+            "ok": true,
+            "expected": [],
+            "got": [],
+            "note": ""
+          },
+          "consequences": {
+            "ok": true,
+            "expected": [],
+            "got": [],
+            "note": ""
+          }
+        }
+      },
+      {
+        "id": "debt-validation",
+        "title": "Debt collector validation notice",
+        "checks": {
+          "kind": {
+            "ok": true,
+            "expected": "debt-collection",
+            "got": "debt-collection"
+          },
+          "deadline": {
+            "ok": true,
+            "expected": "2026-12-15",
+            "got": "2026-12-15"
+          },
+          "amount": {
+            "ok": true,
+            "expected": 842.19,
+            "got": 842.19
+          },
+          "scam": {
+            "ok": true,
+            "expected": false,
+            "got": false
+          },
+          "documents": {
+            "ok": true,
+            "expected": [],
+            "got": [],
+            "note": ""
+          },
+          "consequences": {
+            "ok": true,
+            "expected": [
+              "assume-correct"
+            ],
+            "got": [
+              "late-fee",
+              "assume-correct"
+            ],
+            "note": ""
+          }
+        }
+      },
+      {
+        "id": "insurance-denial",
+        "title": "Insurance prior-authorization denial",
+        "checks": {
+          "kind": {
+            "ok": true,
+            "expected": "insurance-denial",
+            "got": "insurance-denial"
+          },
+          "deadline": {
+            "ok": true,
+            "expected": "2027-05-11",
+            "got": "2027-05-11"
+          },
+          "amount": {
+            "ok": true,
+            "expected": null,
+            "got": null
+          },
+          "scam": {
+            "ok": true,
+            "expected": false,
+            "got": false
+          },
+          "documents": {
+            "ok": true,
+            "expected": [
+              "medical records or doctor's letter"
+            ],
+            "got": [
+              "medical records or doctor's letter"
+            ],
+            "note": ""
+          },
+          "consequences": {
+            "ok": true,
+            "expected": [],
+            "got": [],
+            "note": ""
+          }
+        }
+      },
+      {
+        "id": "three-day-notice",
+        "title": "Three-day notice to pay rent",
+        "checks": {
+          "kind": {
+            "ok": true,
+            "expected": "housing",
+            "got": "housing"
+          },
+          "deadline": {
+            "ok": true,
+            "expected": "2026-11-19",
+            "got": "2026-11-19"
+          },
+          "amount": {
+            "ok": true,
+            "expected": 1450,
+            "got": 1450
+          },
+          "scam": {
+            "ok": true,
+            "expected": false,
+            "got": false
+          },
+          "documents": {
+            "ok": true,
+            "expected": [],
+            "got": [],
+            "note": ""
+          },
+          "consequences": {
+            "ok": true,
+            "expected": [
+              "eviction"
+            ],
+            "got": [
+              "eviction"
+            ],
+            "note": ""
+          }
+        }
+      },
+      {
+        "id": "jury-summons",
+        "title": "Jury summons",
+        "checks": {
+          "kind": {
+            "ok": true,
+            "expected": "court-jury",
+            "got": "court-jury"
+          },
+          "deadline": {
+            "ok": true,
+            "expected": "2026-11-23",
+            "got": "2026-11-23"
+          },
+          "amount": {
+            "ok": true,
+            "expected": null,
+            "got": null
+          },
+          "scam": {
+            "ok": true,
+            "expected": false,
+            "got": false
+          },
+          "documents": {
+            "ok": true,
+            "expected": [],
+            "got": [],
+            "note": ""
+          },
+          "consequences": {
+            "ok": true,
+            "expected": [
+              "fine"
+            ],
+            "got": [
+              "fine"
+            ],
+            "note": ""
+          }
+        }
+      },
+      {
+        "id": "school-attendance",
+        "title": "School attendance letter",
+        "checks": {
+          "kind": {
+            "ok": true,
+            "expected": "school",
+            "got": "school"
+          },
+          "deadline": {
+            "ok": true,
+            "expected": "2026-11-25",
+            "got": "2026-11-25"
+          },
+          "amount": {
+            "ok": true,
+            "expected": null,
+            "got": null
+          },
+          "scam": {
+            "ok": true,
+            "expected": false,
+            "got": false
+          },
+          "documents": {
+            "ok": true,
+            "expected": [],
+            "got": [],
+            "note": ""
+          },
+          "consequences": {
+            "ok": true,
+            "expected": [
+              "court"
+            ],
+            "got": [
+              "court"
+            ],
+            "note": ""
+          }
+        }
+      },
+      {
+        "id": "toll-text-scam",
+        "title": "Text: unpaid toll",
+        "checks": {
+          "deadline": {
+            "ok": true,
+            "expected": null,
+            "got": null
+          },
+          "amount": {
+            "ok": true,
+            "expected": 6.99,
+            "got": 6.99
+          },
+          "scam": {
+            "ok": true,
+            "expected": true,
+            "got": true
+          },
+          "documents": {
+            "ok": true,
+            "expected": [],
+            "got": [],
+            "note": ""
+          },
+          "consequences": {
+            "ok": true,
+            "expected": [],
+            "got": [
+              "late-fee"
+            ],
+            "note": ""
+          }
+        }
+      },
+      {
+        "id": "irs-gift-card-scam",
+        "title": "Text: \"IRS\" arrest threat",
+        "checks": {
+          "kind": {
+            "ok": true,
+            "expected": "tax",
+            "got": "tax"
+          },
+          "deadline": {
+            "ok": true,
+            "expected": null,
+            "got": null
+          },
+          "amount": {
+            "ok": true,
+            "expected": 2400,
+            "got": 2400
+          },
+          "scam": {
+            "ok": true,
+            "expected": true,
+            "got": true
+          },
+          "documents": {
+            "ok": true,
+            "expected": [],
+            "got": [],
+            "note": ""
+          },
+          "consequences": {
+            "ok": true,
+            "expected": [],
+            "got": [],
+            "note": ""
+          }
+        }
+      },
+      {
+        "id": "unemployment-overpayment",
+        "title": "Unemployment overpayment",
+        "checks": {
+          "kind": {
+            "ok": true,
+            "expected": "unemployment",
+            "got": "unemployment"
+          },
+          "deadline": {
+            "ok": true,
+            "expected": "2026-11-19",
+            "got": "2026-11-19"
+          },
+          "amount": {
+            "ok": true,
+            "expected": 2016,
+            "got": 2016
+          },
+          "scam": {
+            "ok": true,
+            "expected": false,
+            "got": false
+          },
+          "documents": {
+            "ok": true,
+            "expected": [],
+            "got": [],
+            "note": ""
+          },
+          "consequences": {
+            "ok": true,
+            "expected": [
+              "court",
+              "garnish"
+            ],
+            "got": [
+              "court",
+              "garnish"
+            ],
+            "note": ""
+          }
+        }
+      },
+      {
+        "id": "vehicle-registration",
+        "title": "Vehicle registration renewal",
+        "checks": {
+          "kind": {
+            "ok": true,
+            "expected": "vehicle",
+            "got": "vehicle"
+          },
+          "deadline": {
+            "ok": true,
+            "expected": "2026-12-31",
+            "got": "2026-12-31"
+          },
+          "amount": {
+            "ok": true,
+            "expected": 85.25,
+            "got": 85.25
+          },
+          "scam": {
+            "ok": true,
+            "expected": false,
+            "got": false
+          },
+          "documents": {
+            "ok": true,
+            "expected": [
+              "proof of insurance"
+            ],
+            "got": [
+              "proof of insurance"
+            ],
+            "note": ""
+          },
+          "consequences": {
+            "ok": true,
+            "expected": [
+              "fine"
+            ],
+            "got": [
+              "fine"
+            ],
+            "note": ""
+          }
+        }
+      },
+      {
+        "id": "dental-reminder",
+        "title": "Text: appointment reminder (real)",
+        "checks": {
+          "kind": {
+            "ok": true,
+            "expected": "appointment",
+            "got": "appointment"
+          },
+          "deadline": {
+            "ok": true,
+            "expected": "2026-12-03",
+            "got": "2026-12-03"
+          },
+          "amount": {
+            "ok": true,
+            "expected": null,
+            "got": null
+          },
+          "scam": {
+            "ok": true,
+            "expected": false,
+            "got": false
+          },
+          "documents": {
+            "ok": true,
+            "expected": [],
+            "got": [],
+            "note": ""
+          },
+          "consequences": {
+            "ok": true,
+            "expected": [],
+            "got": [],
+            "note": ""
+          }
+        }
+      }
+    ],
+    "right": 95,
+    "wrong": 0,
+    "perfect": 16,
+    "letters": 16
+  },
+  "heldout": {
+    "rows": [
+      {
+        "id": "ho-marketplace-dmi",
+        "title": "Marketplace income check",
+        "checks": {
+          "kind": {
+            "ok": true,
+            "expected": "health-coverage",
+            "got": "health-coverage"
+          },
+          "deadline": {
+            "ok": true,
+            "expected": "2027-02-01",
+            "got": "2027-02-01"
+          },
+          "amount": {
+            "ok": true,
+            "expected": null,
+            "got": null
+          },
+          "scam": {
+            "ok": true,
+            "expected": false,
+            "got": false
+          },
+          "documents": {
+            "ok": true,
+            "expected": [
+              "pay stubs",
+              "tax return or W-2"
+            ],
+            "got": [
+              "pay stubs",
+              "tax return or W-2"
+            ],
+            "note": ""
+          },
+          "consequences": {
+            "ok": true,
+            "expected": [],
+            "got": [],
+            "note": ""
+          }
+        }
+      },
+      {
+        "id": "ho-water-bill",
+        "title": "Water bill",
+        "checks": {
+          "kind": {
+            "ok": true,
+            "expected": "utility",
+            "got": "utility"
+          },
+          "deadline": {
+            "ok": true,
+            "expected": "2026-12-01",
+            "got": "2026-12-01"
+          },
+          "amount": {
+            "ok": true,
+            "expected": 58.73,
+            "got": 58.73
+          },
+          "scam": {
+            "ok": true,
+            "expected": false,
+            "got": false
+          },
+          "documents": {
+            "ok": true,
+            "expected": [],
+            "got": [],
+            "note": ""
+          },
+          "consequences": {
+            "ok": true,
+            "expected": [
+              "late-fee"
+            ],
+            "got": [
+              "late-fee"
+            ],
+            "note": ""
+          }
+        }
+      },
+      {
+        "id": "ho-bank-text-scam",
+        "title": "Text: fake bank fraud alert",
+        "checks": {
+          "deadline": {
+            "ok": false,
+            "expected": null,
+            "got": "2026-11-18"
+          },
+          "amount": {
+            "ok": true,
+            "expected": null,
+            "got": null
+          },
+          "scam": {
+            "ok": true,
+            "expected": true,
+            "got": true
+          },
+          "documents": {
+            "ok": true,
+            "expected": [],
+            "got": [],
+            "note": ""
+          },
+          "consequences": {
+            "ok": true,
+            "expected": [],
+            "got": [],
+            "note": ""
+          }
+        }
+      },
+      {
+        "id": "ho-snap-recert",
+        "title": "SNAP recertification",
+        "checks": {
+          "kind": {
+            "ok": true,
+            "expected": "food-cash-benefits",
+            "got": "food-cash-benefits"
+          },
+          "deadline": {
+            "ok": true,
+            "expected": "2026-12-15",
+            "got": "2026-12-15"
+          },
+          "amount": {
+            "ok": true,
+            "expected": null,
+            "got": null
+          },
+          "scam": {
+            "ok": true,
+            "expected": false,
+            "got": false
+          },
+          "documents": {
+            "ok": true,
+            "expected": [
+              "pay stubs",
+              "proof of expenses (rent, childcare, medical)"
+            ],
+            "got": [
+              "pay stubs",
+              "proof of expenses (rent, childcare, medical)"
+            ],
+            "note": ""
+          },
+          "consequences": {
+            "ok": true,
+            "expected": [
+              "lose-benefits"
+            ],
+            "got": [
+              "lose-benefits"
+            ],
+            "note": ""
+          }
+        }
+      },
+      {
+        "id": "ho-credit-card-late",
+        "title": "Credit card statement",
+        "checks": {
+          "deadline": {
+            "ok": true,
+            "expected": "2026-12-09",
+            "got": "2026-12-09"
+          },
+          "amount": {
+            "ok": true,
+            "expected": 45,
+            "got": 45
+          },
+          "scam": {
+            "ok": true,
+            "expected": false,
+            "got": false
+          },
+          "documents": {
+            "ok": true,
+            "expected": [],
+            "got": [],
+            "note": ""
+          },
+          "consequences": {
+            "ok": true,
+            "expected": [
+              "late-fee"
+            ],
+            "got": [
+              "late-fee"
+            ],
+            "note": ""
+          }
+        }
+      },
+      {
+        "id": "ho-lease-nonrenewal",
+        "title": "Lease non-renewal",
+        "checks": {
+          "kind": {
+            "ok": true,
+            "expected": "housing",
+            "got": "housing"
+          },
+          "deadline": {
+            "ok": true,
+            "expected": "2027-01-31",
+            "got": "2027-01-31"
+          },
+          "amount": {
+            "ok": true,
+            "expected": null,
+            "got": null
+          },
+          "scam": {
+            "ok": true,
+            "expected": false,
+            "got": false
+          },
+          "documents": {
+            "ok": true,
+            "expected": [],
+            "got": [],
+            "note": ""
+          },
+          "consequences": {
+            "ok": true,
+            "expected": [
+              "eviction"
+            ],
+            "got": [
+              "eviction"
+            ],
+            "note": ""
+          }
+        }
+      },
+      {
+        "id": "ho-prize-scam",
+        "title": "Email: prize claim",
+        "checks": {
+          "deadline": {
+            "ok": false,
+            "expected": null,
+            "got": "2026-11-18"
+          },
+          "amount": {
+            "ok": true,
+            "expected": 9.95,
+            "got": 9.95
+          },
+          "scam": {
+            "ok": true,
+            "expected": true,
+            "got": true
+          },
+          "documents": {
+            "ok": true,
+            "expected": [],
+            "got": [
+              "Social Security card or number"
+            ],
+            "note": ""
+          },
+          "consequences": {
+            "ok": true,
+            "expected": [],
+            "got": [],
+            "note": ""
+          }
+        }
+      },
+      {
+        "id": "ho-ssa-review",
+        "title": "Social Security disability review",
+        "checks": {
+          "deadline": {
+            "ok": true,
+            "expected": "2026-11-20",
+            "got": "2026-11-20"
+          },
+          "amount": {
+            "ok": true,
+            "expected": null,
+            "got": null
+          },
+          "scam": {
+            "ok": true,
+            "expected": false,
+            "got": false
+          },
+          "documents": {
+            "ok": true,
+            "expected": [],
+            "got": [],
+            "note": ""
+          },
+          "consequences": {
+            "ok": true,
+            "expected": [
+              "lose-benefits"
+            ],
+            "got": [
+              "lose-benefits"
+            ],
+            "note": ""
+          }
+        }
+      },
+      {
+        "id": "ho-traffic-ticket",
+        "title": "Traffic ticket",
+        "checks": {
+          "kind": {
+            "ok": true,
+            "expected": "vehicle",
+            "got": "vehicle"
+          },
+          "deadline": {
+            "ok": true,
+            "expected": "2026-12-01",
+            "got": "2026-12-01"
+          },
+          "amount": {
+            "ok": true,
+            "expected": 156,
+            "got": 156
+          },
+          "scam": {
+            "ok": true,
+            "expected": false,
+            "got": false
+          },
+          "documents": {
+            "ok": true,
+            "expected": [],
+            "got": [],
+            "note": ""
+          },
+          "consequences": {
+            "ok": true,
+            "expected": [
+              "late-fee"
+            ],
+            "got": [
+              "late-fee"
+            ],
+            "note": ""
+          }
+        }
+      },
+      {
+        "id": "ho-school-lunch",
+        "title": "School meals application",
+        "checks": {
+          "kind": {
+            "ok": true,
+            "expected": "school",
+            "got": "school"
+          },
+          "deadline": {
+            "ok": true,
+            "expected": null,
+            "got": null
+          },
+          "amount": {
+            "ok": true,
+            "expected": null,
+            "got": null
+          },
+          "scam": {
+            "ok": true,
+            "expected": false,
+            "got": false
+          },
+          "documents": {
+            "ok": true,
+            "expected": [],
+            "got": [],
+            "note": ""
+          },
+          "consequences": {
+            "ok": true,
+            "expected": [],
+            "got": [],
+            "note": ""
+          }
+        }
+      }
+    ],
+    "right": 54,
+    "wrong": 2,
+    "perfect": 8,
+    "letters": 10
+  },
+  "heldoutFirstBlindRun": {
+    "right": 50,
+    "checks": 56,
+    "perfect": 6,
+    "letters": 10
+  },
+  "fresh": {
+    "rows": [
+      {
+        "id": "fr-medicare-premium",
+        "title": "Medicare premium past due",
+        "checks": {
+          "deadline": {
+            "ok": true,
+            "expected": "2026-12-25",
+            "got": "2026-12-25"
+          },
+          "amount": {
+            "ok": true,
+            "expected": 202.9,
+            "got": 202.9
+          },
+          "scam": {
+            "ok": true,
+            "expected": false,
+            "got": false
+          },
+          "documents": {
+            "ok": true,
+            "expected": [],
+            "got": [],
+            "note": ""
+          },
+          "consequences": {
+            "ok": true,
+            "expected": [
+              "lose-coverage"
+            ],
+            "got": [
+              "lose-coverage"
+            ],
+            "note": ""
+          }
+        }
+      },
+      {
+        "id": "fr-wic-appointment",
+        "title": "WIC certification appointment",
+        "checks": {
+          "kind": {
+            "ok": false,
+            "expected": "food-cash-benefits",
+            "got": "appointment"
+          },
+          "deadline": {
+            "ok": true,
+            "expected": "2026-12-08",
+            "got": "2026-12-08"
+          },
+          "amount": {
+            "ok": true,
+            "expected": null,
+            "got": null
+          },
+          "scam": {
+            "ok": true,
+            "expected": false,
+            "got": false
+          },
+          "documents": {
+            "ok": true,
+            "expected": [
+              "photo ID",
+              "proof of address",
+              "proof of income"
+            ],
+            "got": [
+              "proof of income",
+              "proof of address",
+              "photo ID"
+            ],
+            "note": ""
+          },
+          "consequences": {
+            "ok": true,
+            "expected": [],
+            "got": [],
+            "note": ""
+          }
+        }
+      },
+      {
+        "id": "fr-package-scam",
+        "title": "Text: fake delivery",
+        "checks": {
+          "deadline": {
+            "ok": true,
+            "expected": null,
+            "got": null
+          },
+          "amount": {
+            "ok": false,
+            "expected": 1.99,
+            "got": null
+          },
+          "scam": {
+            "ok": true,
+            "expected": true,
+            "got": true
+          },
+          "documents": {
+            "ok": true,
+            "expected": [],
+            "got": [],
+            "note": ""
+          },
+          "consequences": {
+            "ok": true,
+            "expected": [],
+            "got": [],
+            "note": ""
+          }
+        }
+      },
+      {
+        "id": "fr-rent-increase",
+        "title": "Rent increase notice",
+        "checks": {
+          "kind": {
+            "ok": true,
+            "expected": "housing",
+            "got": "housing"
+          },
+          "deadline": {
+            "ok": true,
+            "expected": "2026-12-31",
+            "got": "2026-12-31"
+          },
+          "amount": {
+            "ok": true,
+            "expected": null,
+            "got": null
+          },
+          "scam": {
+            "ok": true,
+            "expected": false,
+            "got": false
+          },
+          "documents": {
+            "ok": true,
+            "expected": [],
+            "got": [],
+            "note": ""
+          },
+          "consequences": {
+            "ok": true,
+            "expected": [],
+            "got": [],
+            "note": ""
+          }
+        }
+      },
+      {
+        "id": "fr-irs-balance-due",
+        "title": "IRS balance due",
+        "checks": {
+          "kind": {
+            "ok": true,
+            "expected": "tax",
+            "got": "tax"
+          },
+          "deadline": {
+            "ok": true,
+            "expected": "2026-11-16",
+            "got": "2026-11-16"
+          },
+          "amount": {
+            "ok": true,
+            "expected": 734.12,
+            "got": 734.12
+          },
+          "scam": {
+            "ok": true,
+            "expected": false,
+            "got": false
+          },
+          "documents": {
+            "ok": true,
+            "expected": [],
+            "got": [],
+            "note": ""
+          },
+          "consequences": {
+            "ok": true,
+            "expected": [
+              "late-fee"
+            ],
+            "got": [
+              "late-fee"
+            ],
+            "note": ""
+          }
+        }
+      },
+      {
+        "id": "fr-court-hearing",
+        "title": "Small claims hearing",
+        "checks": {
+          "kind": {
+            "ok": true,
+            "expected": "court-jury",
+            "got": "court-jury"
+          },
+          "deadline": {
+            "ok": true,
+            "expected": "2027-01-06",
+            "got": "2027-01-06"
+          },
+          "amount": {
+            "ok": true,
+            "expected": null,
+            "got": null
+          },
+          "scam": {
+            "ok": true,
+            "expected": false,
+            "got": false
+          },
+          "documents": {
+            "ok": true,
+            "expected": [],
+            "got": [],
+            "note": ""
+          },
+          "consequences": {
+            "ok": true,
+            "expected": [
+              "court"
+            ],
+            "got": [
+              "court"
+            ],
+            "note": ""
+          }
+        }
+      }
+    ],
+    "right": 32,
+    "wrong": 2,
+    "perfect": 4,
+    "letters": 6
+  }
+}
